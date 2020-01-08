@@ -48,6 +48,8 @@ public class GameplayController : MonoBehaviour
     public void GameOver()
     {
         scorePanel.SetActive(false);
+        if (PlayerPrefs.GetFloat("ScoreText") < score)
+            PlayerPrefs.SetFloat("ScoreText", score);
         endScore.text = "Height: " + score;
         endPanelAnim.Play("EndPanel");
     }

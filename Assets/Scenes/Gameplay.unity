@@ -374,6 +374,7 @@ GameObject:
   - component: {fileID: 437940108}
   - component: {fileID: 437940107}
   - component: {fileID: 437940110}
+  - component: {fileID: 437940111}
   - component: {fileID: 437940106}
   m_Layer: 0
   m_Name: Side Boundaries (3)
@@ -531,6 +532,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &437940111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 437940104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c390a0dbf163743849fee7c5eb862f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &539925315
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,6 +935,7 @@ GameObject:
   - component: {fileID: 919099995}
   - component: {fileID: 919099994}
   - component: {fileID: 919099997}
+  - component: {fileID: 919099998}
   - component: {fileID: 919099993}
   m_Layer: 0
   m_Name: Side Boundaries (2)
@@ -1080,6 +1093,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &919099998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 919099991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c390a0dbf163743849fee7c5eb862f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1052839685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,6 +1255,7 @@ GameObject:
   - component: {fileID: 1304674984}
   - component: {fileID: 1304674987}
   - component: {fileID: 1304674983}
+  - component: {fileID: 1304674988}
   m_Layer: 0
   m_Name: Side Boundaries (1)
   m_TagString: SideBound
@@ -1387,6 +1412,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1304674988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1304674981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c390a0dbf163743849fee7c5eb862f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1341763515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,7 +1463,9 @@ GameObject:
   - component: {fileID: 1342543561}
   - component: {fileID: 1342543560}
   - component: {fileID: 1342543563}
+  - component: {fileID: 1342543565}
   - component: {fileID: 1342543559}
+  - component: {fileID: 1342543564}
   m_Layer: 0
   m_Name: Side Boundaries
   m_TagString: SideBound
@@ -1584,6 +1622,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1342543564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1342543557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c390a0dbf163743849fee7c5eb862f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1342543565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1342543557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c390a0dbf163743849fee7c5eb862f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1429432059
 GameObject:
   m_ObjectHideFlags: 0

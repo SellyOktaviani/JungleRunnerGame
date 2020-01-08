@@ -27,6 +27,10 @@ public class BGMover : MonoBehaviour
         Move();
         Reposition();
     }
+    public void SetSpeed(float modifier)
+    {
+        moveSpeed = 5.0f + modifier;
+    }
 
     void Move()
     {
