@@ -12,6 +12,7 @@ public class Squirrel : MonoBehaviour
         Move();
     }
 
+    //squirrel jalan maju
     void Move()
     {
         Vector3 temp = transform.position;
@@ -20,11 +21,12 @@ public class Squirrel : MonoBehaviour
     }
 
    void OnCollisionEnter2D(Collision2D target)
-    {
+    {   //squirrel maju mundur
         if (target.gameObject.tag == "SideBound")
         {
             moveSpeed *= -1f;
 
+            //squirrel bisa balik
             Vector3 temp = transform.localScale;
             temp.x *= -1f;
             transform.localScale = temp;

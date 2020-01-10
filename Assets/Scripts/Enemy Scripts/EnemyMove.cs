@@ -19,6 +19,7 @@ public class EnemyMove : MonoBehaviour
         Deactivate();
     }
 
+    //flag jalan 
     void Move()
     {
         Vector3 temp = transform.position;
@@ -26,6 +27,7 @@ public class EnemyMove : MonoBehaviour
         transform.position = temp;
     }
 
+    //flag hilang
     void Deactivate()
     {
         if (transform.position.y < cameraY)

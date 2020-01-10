@@ -335,7 +335,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -85.6, y: -142.1}
+  m_AnchoredPosition: {x: -88.05, y: -150}
   m_SizeDelta: {x: 236.8, y: 140.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &264448362
@@ -378,7 +378,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1797239798}
-        m_MethodName: PlayGame
+        m_MethodName: SceneHelp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -686,7 +686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.85294116, g: 0.5801038, b: 0.3323962, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -728,7 +728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: 138}
+  m_AnchoredPosition: {x: -81, y: 138}
   m_SizeDelta: {x: 222.7, y: 29.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1527146199
@@ -986,7 +986,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 115.1, y: -148.55}
+  m_AnchoredPosition: {x: 129.04997, y: -148.54999}
   m_SizeDelta: {x: 197.4, y: 153.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1815195029
