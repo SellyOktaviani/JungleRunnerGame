@@ -686,7 +686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.85294116, g: 0.5801038, b: 0.3323962, a: 1}
+  m_Color: {r: 0.6764706, g: 0.3870839, b: 0.1243512, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -695,7 +695,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 35
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
@@ -728,8 +728,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81, y: 138}
-  m_SizeDelta: {x: 222.7, y: 29.5}
+  m_AnchoredPosition: {x: 12.949997, y: 138}
+  m_SizeDelta: {x: 346.1, y: 47.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1527146199
 GameObject:
